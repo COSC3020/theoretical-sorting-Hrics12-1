@@ -16,3 +16,13 @@ Also give a theoretical argument for why X could or could not be correct, based
 on the complexity of the general sorting problem we covered in class.
 
 Add your answers to this markdown file.
+
+I would start by just throwing random lists and inputs at it and see if they're getting sorted. Then I would compare the time complexity of this super algorthim to known algorthims and see how the sorts compare. I would then see if the time to sort any and all lists was linear. If the time complexity were all linear then I would see if I could find a worst case scenerio by reversing the orders or amount of elements, maybe put multiple duplicates in the list. 
+I don't think this is possible becasue with the known lower bound of $O(nlogn)$ in sorting and unless the reasearcher found a way to sort without comparing all the elements then the claim of $O(n)$ is bogus.
+
+If I tested numerous lists of different values (100,1000, 10,000,000 elements) and plotted the points based of $n$ elements and time, the line would be a straight line.
+For sorted data I would keep using lists that are already sorted and if it can sort it in linear time then I would say it supports the claim
+For reverse sorted data I would repeat the test with lists sorted backwards and test the worst case. If this was done in linear time the line might be higher then random data but would still be straight.
+if the sorting algorthim can handle the duplicates efficiently then the line might be higher or lower then random data but still straight.
+
+If this algorithm is truely linear and has a time complexity of $O(n)$ all the lines for whatever type of data it is given should be straight showing their linear growth of the run time as the size of the input data increases.
