@@ -26,3 +26,7 @@ For reverse sorted data I would repeat the test with lists sorted backwards and 
 if the sorting algorthim can handle the duplicates efficiently then the line might be higher or lower then random data but still straight.
 
 If this algorithm is truely linear and has a time complexity of $O(n)$ all the lines for whatever type of data it is given should be straight showing their linear growth of the run time as the size of the input data increases.
+
+I used my previous repo for this
+
+"I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice."
